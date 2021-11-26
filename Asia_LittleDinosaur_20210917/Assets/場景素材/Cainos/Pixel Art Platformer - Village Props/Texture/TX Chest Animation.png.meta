@@ -4,88 +4,88 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -1309413244939661745
-    second: TX Chest Animation_0
+    second: TX Chest Animation Wooden 0
   - first:
       213: 2628861295414256057
-    second: TX Chest Animation_1
+    second: TX Chest Animation Wooden 1
   - first:
       213: 7729124679938002231
-    second: TX Chest Animation_2
+    second: TX Chest Animation Wooden 2
   - first:
       213: 6231711225017064468
-    second: TX Chest Animation_3
+    second: TX Chest Animation Wooden 3
   - first:
       213: 2032627284715886908
-    second: TX Chest Animation_4
+    second: TX Chest Animation Wooden 4
   - first:
       213: 3186618823931839756
-    second: TX Chest Animation_5
+    second: TX Chest Animation Wooden 5
   - first:
       213: -1440598482483040155
-    second: TX Chest Animation_6
+    second: TX Chest Animation Wooden 6
   - first:
       213: 5233871863560122000
-    second: TX Chest Animation_7
+    second: TX Chest Animation Iron 0
   - first:
       213: 3278100515923679428
-    second: TX Chest Animation_8
+    second: TX Chest Animation Iron 1
   - first:
       213: 8206291628881865982
-    second: TX Chest Animation_9
+    second: TX Chest Animation Iron 2
   - first:
       213: -7401870491986572264
-    second: TX Chest Animation_10
+    second: TX Chest Animation Iron 3
   - first:
       213: -7148347082035780633
-    second: TX Chest Animation_11
+    second: TX Chest Animation Iron 4
   - first:
       213: -6398334591226318208
-    second: TX Chest Animation_12
+    second: TX Chest Animation Iron 5
   - first:
       213: 6756677616160534888
-    second: TX Chest Animation_13
+    second: TX Chest Animation Iron 6
   - first:
       213: 3849778927949640068
-    second: TX Chest Animation_14
+    second: TX Chest Animation Silver 0
   - first:
       213: 8901239322130806984
-    second: TX Chest Animation_15
+    second: TX Chest Animation Silver 1
   - first:
       213: 1052626010940248532
-    second: TX Chest Animation_16
+    second: TX Chest Animation Silver 2
   - first:
       213: 3119438749017079868
-    second: TX Chest Animation_17
+    second: TX Chest Animation Silver 3
   - first:
       213: 4918926099135234322
-    second: TX Chest Animation_18
+    second: TX Chest Animation Silver 4
   - first:
       213: -881816029012212927
-    second: TX Chest Animation_19
+    second: TX Chest Animation Silver 5
   - first:
       213: 5501649885831989918
-    second: TX Chest Animation_20
+    second: TX Chest Animation Silver 6
   - first:
       213: -6929924221510541977
-    second: TX Chest Animation_21
+    second: TX Chest Animation Golden 0
   - first:
       213: -8385124645873774784
-    second: TX Chest Animation_22
+    second: TX Chest Animation Golden 1
   - first:
       213: -2859092616773691244
-    second: TX Chest Animation_23
+    second: TX Chest Animation Golden 2
   - first:
       213: 2094815519824226833
-    second: TX Chest Animation_24
+    second: TX Chest Animation Golden 3
   - first:
       213: -2983415483628201805
-    second: TX Chest Animation_25
+    second: TX Chest Animation Golden 4
   - first:
       213: 1880024034202856855
-    second: TX Chest Animation_26
+    second: TX Chest Animation Golden 5
   - first:
       213: -3888567672798316567
-    second: TX Chest Animation_27
+    second: TX Chest Animation Golden 6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -127,10 +127,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -151,7 +151,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -163,19 +163,7 @@ TextureImporter:
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -187,7 +175,19 @@ TextureImporter:
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -199,15 +199,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TX Chest Animation_0
+      name: TX Chest Animation Wooden 0
       rect:
         serializedVersion: 2
         x: 31
         y: 448
         width: 34
         height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -220,15 +220,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation_1
+      name: TX Chest Animation Wooden 1
       rect:
         serializedVersion: 2
         x: 95
         y: 448
         width: 34
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -241,15 +241,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation_2
+      name: TX Chest Animation Wooden 2
       rect:
         serializedVersion: 2
         x: 159
         y: 448
         width: 34
         height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -262,15 +262,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation_3
+      name: TX Chest Animation Wooden 3
       rect:
         serializedVersion: 2
         x: 223
         y: 448
         width: 34
         height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -283,15 +283,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation_4
+      name: TX Chest Animation Wooden 4
       rect:
         serializedVersion: 2
         x: 287
         y: 448
         width: 34
         height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -304,15 +304,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation_5
+      name: TX Chest Animation Wooden 5
       rect:
         serializedVersion: 2
         x: 351
         y: 448
         width: 34
         height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -325,15 +325,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation_6
+      name: TX Chest Animation Wooden 6
       rect:
         serializedVersion: 2
         x: 415
         y: 448
         width: 34
         height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -346,15 +346,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation_7
+      name: TX Chest Animation Iron 0
       rect:
         serializedVersion: 2
         x: 31
         y: 384
         width: 34
         height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -367,15 +367,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation_8
+      name: TX Chest Animation Iron 1
       rect:
         serializedVersion: 2
         x: 95
         y: 384
         width: 34
         height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -388,15 +388,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation_9
+      name: TX Chest Animation Iron 2
       rect:
         serializedVersion: 2
         x: 159
         y: 384
         width: 34
         height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -409,15 +409,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation_10
+      name: TX Chest Animation Iron 3
       rect:
         serializedVersion: 2
         x: 223
         y: 384
         width: 34
         height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -430,15 +430,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation_11
+      name: TX Chest Animation Iron 4
       rect:
         serializedVersion: 2
         x: 287
         y: 384
         width: 34
         height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -451,15 +451,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation_12
+      name: TX Chest Animation Iron 5
       rect:
         serializedVersion: 2
         x: 351
         y: 384
         width: 34
         height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -472,15 +472,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation_13
+      name: TX Chest Animation Iron 6
       rect:
         serializedVersion: 2
         x: 415
         y: 384
         width: 34
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -493,15 +493,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation_14
+      name: TX Chest Animation Silver 0
       rect:
         serializedVersion: 2
         x: 31
         y: 320
         width: 34
         height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -514,15 +514,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation_15
+      name: TX Chest Animation Silver 1
       rect:
         serializedVersion: 2
-        x: 95
+        x: 96
         y: 320
         width: 34
         height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -535,15 +535,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation_16
+      name: TX Chest Animation Silver 2
       rect:
         serializedVersion: 2
         x: 159
         y: 320
         width: 34
         height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -556,15 +556,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation_17
+      name: TX Chest Animation Silver 3
       rect:
         serializedVersion: 2
         x: 223
         y: 320
         width: 34
         height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -577,15 +577,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation_18
+      name: TX Chest Animation Silver 4
       rect:
         serializedVersion: 2
         x: 287
         y: 320
         width: 34
         height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -598,15 +598,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation_19
+      name: TX Chest Animation Silver 5
       rect:
         serializedVersion: 2
         x: 351
         y: 320
         width: 34
         height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -619,15 +619,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation_20
+      name: TX Chest Animation Silver 6
       rect:
         serializedVersion: 2
         x: 415
         y: 320
         width: 34
         height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -640,15 +640,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation_21
+      name: TX Chest Animation Golden 0
       rect:
         serializedVersion: 2
         x: 31
         y: 256
         width: 34
         height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -661,15 +661,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation_22
+      name: TX Chest Animation Golden 1
       rect:
         serializedVersion: 2
         x: 95
         y: 256
         width: 34
         height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -682,15 +682,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation_23
+      name: TX Chest Animation Golden 2
       rect:
         serializedVersion: 2
         x: 159
         y: 256
         width: 34
         height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -703,15 +703,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation_24
+      name: TX Chest Animation Golden 3
       rect:
         serializedVersion: 2
         x: 223
         y: 256
         width: 34
         height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -724,15 +724,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation_25
+      name: TX Chest Animation Golden 4
       rect:
         serializedVersion: 2
         x: 287
         y: 256
         width: 34
         height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -745,15 +745,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation_26
+      name: TX Chest Animation Golden 5
       rect:
         serializedVersion: 2
         x: 351
         y: 256
         width: 34
         height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -766,15 +766,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation_27
+      name: TX Chest Animation Golden 6
       rect:
         serializedVersion: 2
         x: 415
         y: 256
         width: 34
         height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
